@@ -106,10 +106,7 @@
 				<div class="navbar-collapse collapse " id="navbar-second-toggle">
 					<ul class="nav navbar-nav navbar-nav-material">
 						<li><a href="{{url('/')}}">Dashboard</a></li>
-						<!-- <li><a href="{{url('/deteksi-dini')}}">Deteksi Dini</a></li>
-						<li><a href="{{url('/')}}">Cek Skala Kesehatan</a></li> -->
 						<li><a data-toggle="modal" data-target="#modal_theme_primary">Deteksi Dini</a></li>
-						<!-- <li><a data-toggle="modal" data-target="#modal_theme_primary">Cek Skala Kesehatan</a></li> -->
 						<li><a data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik</a></li>
 						<li><a href="{{url('/info-grafik')}}">Info Grafis</a></li>
 					</ul>
@@ -147,7 +144,7 @@
 											Juga sebagai komitmen keterbukaan informasi publik.</p>
 										</span>
 									</div>
-									<div class='tableauPlaceholder' id='viz1589546527095' style='position: relative'>
+									<div class='tableauPlaceholder' id='viz1589546527095' class="map-covid">
 										<noscript><a href='https:&#47;&#47;corona.jogjaprov.go.id&#47;map-covid-19-diy'><img
 													alt=' '
 													src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;92&#47;92D26YRDN&#47;1_rss.png'

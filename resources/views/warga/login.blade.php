@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>REJOWINANGUN SIAGA COVID-19</title>
-	<!-- <link rel = "icon" href ="{{asset('images/logo.png')}}" type = "image/x-icon">  -->
+	<link rel = "icon" href ="{{asset('images/kkn-kokap.png')}}" type = "image/x-icon"> 
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
@@ -17,7 +17,7 @@
 	<link href="{{asset('css/components.css')}}" rel="stylesheet" type="text/css">
 	<link href="{{asset('css/colors.min.css')}}" rel="stylesheet" type="text/css">	
 	<link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css">
-
+	<link href="{{asset('css/fontawesome-5.6.3/css/all.css')}}" rel="stylesheet" type="text/css"/>
 	<!-- <link rel="stylesheet" href="lib/themes/rtl.css"> -->
 	<!-- /global stylesheets -->
 	@stack('after_style')
@@ -91,39 +91,108 @@
 		<!-- /second navbar -->
 	</div>
 	<!-- Content area -->
-	<div style="margin-top:-20px">
-		<div class="page-container bg-slate" style="">
+	<div class= "container-top bg-slate">
+		<div class="page-container bg-slate content-style" style="">
 			<!-- Page content -->
 			<div class="page-content">
 				<!-- Main content -->
 				<div class="content-text-wrapper" >
 					<!-- Content area -->
-					<div class="content-center text-center">
-						<div class="col-md-12 row logo-container" style="">
-							<a class="navbar-brand" href="{{url('/')}}">
-							<img class="logo" src="{{asset('images/ugm-putih.png')}}" alt="logo">
-							</a>
-							<a class="navbar-brand" href="{{url('/')}}">
-							<img class="logo" src="{{asset('images/dpkm.png')}}" alt="logo">
-							</a>
-							<a class="navbar-brand" href="{{url('/')}}">
-							<img class="logo" src="{{asset('images/logo.png')}}" alt="logo">
-							</a>
+					<div class=" text-center">
+						<div class="col-md-12 logo-container">
+							<div class="logo-style">
+								<a class="navbar-brand" href="{{url('/')}}">
+								<img class="logo" src="{{asset('images/ugm-putih.png')}}" alt="logo">
+								</a>
+								<a class="navbar-brand" href="{{url('/')}}">
+								<img class="logo" src="{{asset('images/dpkm.png')}}" alt="logo">
+								</a>
+								<a class="navbar-brand" href="{{url('/')}}">
+									<img class="logo" src="{{asset('images/logo.png')}}" alt="logo">
+								</a>
+							</div>
 						</div>
-						<h1 style="font-family:sans-serif;font-size:45px">REJOWINANGUN SIAGA COVID-19</h1>
-						<h3>Jangan panik! Mari bersama lawan COVID-19.</h3>
-						<div class="col-md-12 row" style="margin-top:20px">
-							<div class="col-md-4">
+						<div class="col-md-12 title-container">
+							<div class="title-style">
+								<h1 class="title-web-container">REJOWINANGUN SIAGA COVID-19</h1>
+								<h3>Jangan panik! Mari bersama lawan COVID-19.</h3>
+							</div>
+						</div>
+						<div class="col-md-12 button-small" style="margin-top:20px">
+							<div class="col-md-4 box">
 								<a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a>
 							</div>
 							<div class="col-md-4">
-								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default" style="font-size:15px%" data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
+								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default"  data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
 							</div>
 							<div class="col-md-4">
-								<a href="{{url('info-grafik')}}" type="button" style="font-size:15px" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Infografis Covid-19 <i class="icon-circle-right2 position-right"></i></a>
+								<a href="{{url('info-grafik')}}" type="button"  class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Infografis Covid-19 <i class="icon-circle-right2 position-right"></i></a>
 							</div>
 						</div>
-						
+						<div class="container">
+							<div class="col-md-12 row">
+								<div class="col-md-6">
+									<div class="box-styling-content">
+										<div class="row mb-4 mt-5" style="margin: 10px auto">
+											<div class="col-md-12">
+												<div class="icon mb-3">
+													<div class="text-center mx-auto icon-80 bg-white rounded-circle">
+														<a href="{{url('skrining-mandiri')}}"><i class="text-color1_dark fa-2x fas fa-book-open" style="color: #2d4e77;margin-top:20px"></i></a>
+													</div>
+													<div class="clear">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="media-body pt-2" style="margin: 10px auto; text-align: center; ">
+													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('skrining-mandiri')}}" style="color: #2d4e77">Skrining Mandiri</a></h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6" style="margin-top:10px">
+									<div class="box-styling-content">
+										<div class="row mb-4 mt-5" style="margin: 10px auto">
+											<div class="col-md-12">
+												<div class="icon mb-3">
+													<div class="text-center mx-auto icon-80 bg-white rounded-circle">
+														<a href="{{url('skrining-mandiri')}}"><i class="text-color1_dark fa-2x fas fa-book-open" style="color: #2d4e77;margin-top:20px"></i></a>
+													</div>
+													<div class="clear">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="media-body pt-2" style="margin: 10px auto; text-align: center; ">
+													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('skrining-mandiri')}}" style="color: #2d4e77">Skrining Mandiri</a></h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6" style="margin-top:10px">
+									<div class="box-styling-content">
+										<div class="row mb-4 mt-5" style="margin: 10px auto">
+											<div class="col-md-12">
+												<div class="icon mb-3">
+													<div class="text-center mx-auto icon-80 bg-white rounded-circle">
+														<a href="{{url('skrining-mandiri')}}"><i class="text-color1_dark fa-2x fas fa-book-open" style="color: #2d4e77;margin-top:20px"></i></a>
+													</div>
+													<div class="clear">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="media-body pt-2" style="margin: 10px auto; text-align: center; ">
+													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('skrining-mandiri')}}" style="color: #2d4e77">Skrining Mandiri</a></h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<!-- /content area -->
 				</div>
@@ -132,24 +201,17 @@
 			<!-- /page content -->
 		</div>
 	</div>
-	<!-- /content area -->
-	<div class="page-container style-image">
+	<!-- /main content -->
+	<div class="page-container video-content">
 		<!-- Page content -->
-		<div class="page-content" >
+		<div class="page-content style-image" >
 			<!-- Main content -->
-			<!-- <a class="navbar-brand" href="{{url('/')}}"> -->
 				<div class="image-container">
 					<img class="image-container-pelayanan" src="{{asset('images/alur-pelayanan.png')}}">
 				</div>
-							<!-- </a> -->
 			<!-- /main content -->
 		</div>
-		<!-- /page content -->
-	</div>
-	<!-- /main content -->
-	<div class="page-container">
-		<!-- Page content -->
-		<div class="page-content">
+		<div class="page-content ">
 			<!-- Main content -->
 			<div class="content-wrapper">
 				<!-- Content area -->
@@ -182,7 +244,7 @@
 
 		<div class="navbar-collapse collapse" id="navbar-second">
 			<div class="navbar-text">
-				&copy; 2020 | KKN-PPM UGM REJOWINANGUN 
+				&copy; 2020 | KKN-PPM UGM KALIREJO KOKAP
 			</div>
 		</div>
 	</div>
@@ -208,9 +270,8 @@
 										</div>
 										<div class="text-center">
 											<!-- <img src="{{asset('images/covid.jfif')}}" alt="logo" style="width:50%"> -->
-											<img src="{{asset('images/logo.png')}}" alt="logo" style="width:50%">
-											
-											<h5 class="content-group">REJOWINANGUN SIAGA COVID-19 <small
+											<img src="{{asset('images/kkn-kokap.png')}}" alt="logo" style="width:50%">
+											<h5 class="content-group">KALIREJO SIAGA COVID-19 <small
 													class="display-block">Masukkan nomor handphone anda.</small></h5>
 										</div>
 										<div class="form-group has-feedback has-feedback-left">
