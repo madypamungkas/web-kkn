@@ -502,9 +502,9 @@ class WargaController extends Controller
      public function edit($id)
      {
          $provinsi = Province::all();
-         $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
-         $kecamatan = District::where('name','KOKAP')->first();
-         $kelurahan = Village::where('name','KALIREJO')->first();
+         $kabupaten = Regency::where('name','KOTA YOGYAKARTA')->first();
+         $kecamatan = District::where('name','KOTAGEDE')->first();
+         $kelurahan = Village::where('name','REJOWINANGUN')->first();
          $warga = Warga::find($id);
          if ($warga->created_by) {
             $trigTel = Warga::find($warga->created_by)->no_telepon;

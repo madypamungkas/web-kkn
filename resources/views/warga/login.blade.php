@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>REJOWINANGUN SIAGA COVID-19</title>
-	<link rel = "icon" href ="{{asset('images/kkn-kokap.png')}}" type = "image/x-icon"> 
+	<link rel = "icon" href ="{{asset('images/logo.png')}}" type = "image/x-icon"> 
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
@@ -244,7 +244,7 @@
 
 		<div class="navbar-collapse collapse" id="navbar-second">
 			<div class="navbar-text">
-				&copy; 2020 | KKN-PPM UGM KALIREJO KOKAP
+				&copy; 2020 | KKN-PPM UGM REJOWINANGUN
 			</div>
 		</div>
 	</div>
@@ -270,7 +270,7 @@
 										</div>
 										<div class="text-center">
 											<!-- <img src="{{asset('images/covid.jfif')}}" alt="logo" style="width:50%"> -->
-											<img src="{{asset('images/kkn-kokap.png')}}" alt="logo" style="width:50%">
+											<img src="{{asset('images/logo.png')}}" alt="logo" style="width:50%">
 											<h5 class="content-group">KALIREJO SIAGA COVID-19 <small
 													class="display-block">Masukkan nomor handphone anda.</small></h5>
 										</div>

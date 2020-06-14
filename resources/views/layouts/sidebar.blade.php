@@ -7,7 +7,7 @@
             <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
             <li><a href="{{route('dashboard.index')}}"><i class="icon-home8"></i><span>Pesebaran Pemudik</span></a></li>
             <li><a href="{{route('monitoring.index')}}"><i class="icon-magazine"></i><span>Monitoring Covid 19</span></a></li>
-            <li><a href="{{route('pendataan.index')}}"><i class="icon-nbsp"></i><span>Pendataan Dampak Covid-19</span></a></li>
+            <!-- <li><a href="{{route('pendataan.index')}}"><i class="icon-nbsp"></i><span>Pendataan Dampak Covid-19</span></a></li> -->
             <li>
                 <a href="#"><i class="icon-images2"></i><span>Galeri</span></a>
                 <ul>
@@ -23,10 +23,10 @@
                 </ul>
             </li>
             <li>
-                <a href="#"><i class="icon-brain"></i><span>Screening Dampak</span></a>
-                <ul>
+                <!-- <a href="#"><i class="icon-brain"></i><span>Screening Dampak</span></a> -->
+                <!-- <ul>
                     <li><a href="{{route('psikis-pertanyaan.index')}}">Pertanyaan</a></li>
-                </ul>
+                </ul> -->
             </li>
             <li><a href="{{route('user.index')}}"><i class="icon-users2"></i><span>User</span></a></li>
             <!-- /main -->
