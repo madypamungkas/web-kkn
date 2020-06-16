@@ -32,10 +32,21 @@ class WargaController extends Controller
         $gambar = Gambar::where('tipe','gambar')->orderByDesc('created_at')->paginate(3);
         foreach ($gambar as $key => $value) {
             $url = explode('/',$value->url);
-            $value->url = 'https://drive.google.com/uc?id='.$url[5].'&export=download';          
+            // $value->url = 'https://drive.google.com/uc?id='.$url[5].'&export=download';          
         }
         $video = Gambar::where('tipe','video')->orderByDesc('created_at')->paginate(3);
         return view('warga.login',compact('gambar','video'));
+    }
+
+    public function galeri()
+    {
+        $gambar = Gambar::where('tipe','gambar')->orderByDesc('created_at')->paginate(3);
+        foreach ($gambar as $key => $value) {
+            $url = explode('/',$value->url);
+            // $value->url = 'https://drive.google.com/uc?id='.$url[5].'&export=download';          
+        }
+        $video = Gambar::where('tipe','video')->orderByDesc('created_at')->paginate(3);
+        return view('warga.galeri-foto-video',compact('gambar','video'));
     }
 
     public function index($telepon)

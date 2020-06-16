@@ -428,6 +428,7 @@ a:hover {
 
     .content-style{
         margin-top: -150px;
+        margin-bottom: 55px;
     }
 
     .logo-container{
@@ -467,6 +468,7 @@ a:hover {
     .navbar-hidden{
         display: none;
     }
+    
 
     .button-small{
         display: none;
@@ -498,6 +500,7 @@ a:hover {
 
     .content-style{
         margin-top: -150px;
+        margin-bottom: 55px;
     }
 
     .logo-container{
@@ -524,6 +527,10 @@ a:hover {
     
     .image-container{
         text-align: center;
+    }
+
+    .video-content{
+        display: none;
     }
     
     .image-container-pelayanan{
