@@ -137,7 +137,7 @@
 											<div class="col-md-12">
 												<div class="icon mb-3">
 													<div class="text-center mx-auto icon-80 bg-white rounded-circle">
-														<a href="{{url('skrining-mandiri')}}"><i class="text-color1_dark fa-2x fas fa-book-open" style="color: #2d4e77;margin-top:20px"></i></a>
+														<a href="{{url('skrining-mandiri')}}"><i class="text-color1_dark fa-2x fas fa-stethoscope" style="color: #2d4e77;margin-top:20px"></i></a>
 													</div>
 													<div class="clear">
 													</div>
@@ -145,7 +145,7 @@
 											</div>
 											<div class="col-md-12">
 												<div class="media-body pt-2" style="margin: 10px auto; text-align: center; ">
-													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('skrining-mandiri')}}" style="color: #2d4e77">Skrining Mandiri</a></h5>
+													<h5 class="elementtitle stack_font1 fa-stethoscope"><a href="{{url('skrining-mandiri')}}" style="color: #2d4e77">Skrining Mandiri</a></h5>
 												</div>
 											</div>
 										</div>
@@ -157,7 +157,7 @@
 											<div class="col-md-12">
 												<div class="icon mb-3">
 													<div class="text-center mx-auto icon-80 bg-white rounded-circle">
-														<a href="{{url('skrining-mandiri')}}"><i class="text-color1_dark fa-2x fas fa-book-open" style="color: #2d4e77;margin-top:20px"></i></a>
+														<a data-toggle="modal" data-target="#modal_theme_primary"><i class="text-color1_dark fa-2x fas fa-bus" style="color: #2d4e77;margin-top:20px"></i></a>
 													</div>
 													<div class="clear">
 													</div>
@@ -165,7 +165,7 @@
 											</div>
 											<div class="col-md-12">
 												<div class="media-body pt-2" style="margin: 10px auto; text-align: center; ">
-													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('skrining-mandiri')}}" style="color: #2d4e77">Skrining Mandiri</a></h5>
+													<h5 class="elementtitle stack_font1 font-content-small"><a data-toggle="modal" data-target="#modal_theme_primary" style="color: #2d4e77">Lapor Pemudik</a></h5>
 												</div>
 											</div>
 										</div>
@@ -177,7 +177,7 @@
 											<div class="col-md-12">
 												<div class="icon mb-3">
 													<div class="text-center mx-auto icon-80 bg-white rounded-circle">
-														<a href="{{url('skrining-mandiri')}}"><i class="text-color1_dark fa-2x fas fa-book-open" style="color: #2d4e77;margin-top:20px"></i></a>
+														<a href="{{url('info-grafik')}}"><i class="text-color1_dark fa-2x fas fa-globe-americas" style="color: #2d4e77;margin-top:20px"></i></a>
 													</div>
 													<div class="clear">
 													</div>
@@ -185,7 +185,27 @@
 											</div>
 											<div class="col-md-12">
 												<div class="media-body pt-2" style="margin: 10px auto; text-align: center; ">
-													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('skrining-mandiri')}}" style="color: #2d4e77">Skrining Mandiri</a></h5>
+													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('info-grafik')}}" style="color: #2d4e77">Infografis Covid-19</a></h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6" style="margin-top:10px">
+									<div class="box-styling-content">
+										<div class="row mb-4 mt-5" style="margin: 10px auto">
+											<div class="col-md-12">
+												<div class="icon mb-3">
+													<div class="text-center mx-auto icon-80 bg-white rounded-circle">
+														<a href="{{url('galeri')}}"><i class="text-color1_dark fa-2x fas fa-file-image" style="color: #2d4e77;margin-top:20px"></i></a>
+													</div>
+													<div class="clear">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="media-body pt-2" style="margin: 10px auto; text-align: center; ">
+													<h5 class="elementtitle stack_font1 font-content-small"><a href="{{url('galeri')}}" style="color: #2d4e77">Galeri Foto dan Video</a></h5>
 												</div>
 											</div>
 										</div>
@@ -271,7 +291,7 @@
 										<div class="text-center">
 											<!-- <img src="{{asset('images/covid.jfif')}}" alt="logo" style="width:50%"> -->
 											<img src="{{asset('images/logo.png')}}" alt="logo" style="width:50%">
-											<h5 class="content-group">KALIREJO SIAGA COVID-19 <small
+											<h5 class="content-group">REJOWINANGUN SIAGA COVID-19 <small
 													class="display-block">Masukkan nomor handphone anda.</small></h5>
 										</div>
 										<div class="form-group has-feedback has-feedback-left">

@@ -21,7 +21,7 @@
             <th>Id</th>
             <th>Kelurahan</th>
 						<th>Nama</th>
-            <th>Screening</th>
+            <th>Screenings</th>
   					<th>Aksi</th>
             <th></th>
   				</tr>

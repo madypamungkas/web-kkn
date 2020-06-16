@@ -38,6 +38,17 @@ class WargaController extends Controller
         return view('warga.login',compact('gambar','video'));
     }
 
+    public function galeri()
+    {
+        $gambar = Gambar::where('tipe','gambar')->orderByDesc('created_at')->paginate(3);
+        foreach ($gambar as $key => $value) {
+            $url = explode('/',$value->url);
+            // $value->url = 'https://drive.google.com/uc?id='.$url[5].'&export=download';          
+        }
+        $video = Gambar::where('tipe','video')->orderByDesc('created_at')->paginate(3);
+        return view('warga.galeri-foto-video',compact('gambar','video'));
+    }
+
     public function index($telepon)
     {
         $warga = Warga::where('no_telepon',$telepon)->first();
@@ -88,9 +99,9 @@ class WargaController extends Controller
     {
       $provinsi = Province::all();
       $warga = Warga::where('no_telepon',$telepon)->first();
-      $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
-      $kecamatan = District::where('name','KOKAP')->first();
-      $kelurahan = Village::where('name','KALIREJO')->first();
+      $kabupaten = Regency::where('name','KOTA YOGYAKARTA')->first();
+      $kecamatan = District::where('name','KOTAGEDE')->first();
+      $kelurahan = Village::where('name','REJOWINANGUN')->first();
       return view('warga.create', compact('warga','provinsi','kabupaten','kecamatan','kelurahan'));
     }
 
@@ -111,9 +122,9 @@ class WargaController extends Controller
             return redirect('/list/'.$warga->no_telepon);
           } else {
             $provinsi = Province::all();
-            $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
-            $kecamatan = District::where('name','KOKAP')->first();
-            $kelurahan = Village::where('name','KALIREJO')->first();
+            $kabupaten = Regency::where('name','KOTA YOGYAKARTA')->first();
+            $kecamatan = District::where('name','KOTAGEDE')->first();
+            $kelurahan = Village::where('name','REJOWINANGUN')->first();
             return redirect()->route('warga.isiData',$warga->no_telepon);
             //return view('warga.isi-data', compact('warga','provinsi','kabupaten','kecamatan','kelurahan'));
           }
@@ -210,10 +221,10 @@ class WargaController extends Controller
     {
       $warga = Warga::where('no_telepon',$telepon)->first();
       $provinsi = Province::all();
-      $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
-      $kecamatan = District::where('name','KOKAP')->first();
-      $kelurahan = Village::where('name','KALIREJO')->first();
-      if (!empty($warga->nama)) {
+      $kabupaten = Regency::where('name','KOTA YOGYAKARTA')->first();
+      $kecamatan = District::where('name','KOTAGEDE')->first();
+      $kelurahan = Village::where('name','REJOWINANGUN')->first();
+        if (!empty($warga->nama)) {
         return redirect('/list/'.$warga->no_telepon);
       } else {
         return view('warga.isi-data', compact('warga','provinsi','kabupaten','kecamatan','kelurahan'));

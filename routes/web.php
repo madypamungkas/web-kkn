@@ -67,6 +67,7 @@ Route::group(['middleware' => 'auth'], function () {
 Route::group(['prefix'=>'/'], function() {
     Route::get('/', 'WargaController@dashboard');
     Route::get('table/data-warga', 'WargaController@getData');
+    Route::get('/galeri','WargaController@galeri');
     Route::get('list/{telepon}', 'WargaController@index')->name('warga.list');
 
     Route::post('/', 'WargaController@login')->name('warga.login');
