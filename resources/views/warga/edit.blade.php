@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-lg-3">Padukuhan <span class="text-danger">*</span></label>
+                    <label class="control-label col-lg-3">Kampung <span class="text-danger">*</span></label>
                     <div class="col-lg-9">
                         <select class="form-control" name="padukuhan" id="padukuhan">
                             @foreach (\App\Padukuhan::all() as $data)

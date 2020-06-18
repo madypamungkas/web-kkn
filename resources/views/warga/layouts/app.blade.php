@@ -90,7 +90,7 @@
 		<!-- Page header content -->
 		<!-- <div class="page-header-content">
 			<div class="page-title">
-				<h4>KKN-PPM UGM 2020 - UNIT BEDOYO</h4>
+				<h4>KKN-PPM UGM 2020 - UNIT REJOWINANGUN</h4>
 			</div>
 		</div> -->
 		<!-- /page header content -->

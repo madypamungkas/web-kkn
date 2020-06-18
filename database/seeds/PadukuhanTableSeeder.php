@@ -21,7 +21,7 @@ class PadukuhanTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'village_id' => '3403070003',
-                'name' => 'BEDOYO KIDUL',
+                'name' => 'GEDONG KUNING',
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -29,7 +29,7 @@ class PadukuhanTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'village_id' => '3403070003',
-                'name' => 'BEDOYO KULON',
+                'name' => 'REJOWINANGUN',
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -37,59 +37,11 @@ class PadukuhanTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'village_id' => '3403070003',
-                'name' => 'BEDOYO WETAN',
+                'name' => 'PILAHAN',
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
-            array (
-                'id' => 4,
-                'village_id' => '3403070003',
-                'name' => 'BEDOYO LOR',
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            4 => 
-            array (
-                'id' => 5,
-                'village_id' => '3403070003',
-                'name' => 'NGALASOMBO',
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            5 => 
-            array (
-                'id' => 6,
-                'village_id' => '3403070003',
-                'name' => 'NGROMBO',
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            6 => 
-            array (
-                'id' => 7,
-                'village_id' => '3403070003',
-                'name' => 'PRINGLUWANG',
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            7 => 
-            array (
-                'id' => 8,
-                'village_id' => '3403070003',
-                'name' => 'SERUT',
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            8 => 
-            array (
-                'id' => 9,
-                'village_id' => '3403070003',
-                'name' => 'SURUBENDO',
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-        ));
+                  ));
         
         
     }

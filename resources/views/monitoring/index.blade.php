@@ -80,9 +80,9 @@
             </div>
             <div class="col-md-4 pull-right">
               <select class="form-control" data-placeholder="Filter Padukuhan" name="padukuhan" id="padukuhan" style="width=100%">
-                <option value="">Filter Padukuhan</option>
+                <option value="">Filter Kampung</option>
                 <optgroup label="Pilih RT">
-                  <option value="">Semua Padukuhan</option>
+                  <option value="">Semua Kampung</option>
                   @foreach (\App\Padukuhan::all() as $data)
                   <option value="{{$data->id}}" {{collect(old('padukuhan'))->contains($data->id) ? 'selected':''}}>RT {{$data->name}}</option>
                   @endforeach

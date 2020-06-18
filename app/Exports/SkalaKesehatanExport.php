@@ -41,7 +41,7 @@ class SkalaKesehatanExport implements FromCollection, WithHeadings, WithEvents, 
           'No Telepon',
           'Jenis Kelamin',
           'Tanggal Lahir',
-          'Padukuhan',
+          'Kampung',
           'RW',
           'RT',
           'Pertanyaan',
@@ -63,8 +63,7 @@ class SkalaKesehatanExport implements FromCollection, WithHeadings, WithEvents, 
         return [
             BeforeSheet::class => function(BeforeSheet $event){
               $event->sheet->setCellValue('A1', 'REKAP Pendataan Dampak Covid-19');
-              $event->sheet->setCellValue('A2', 'BEDOYO, KABUPATEN GUNUNGKIDUL');
-              $event->sheet->setCellValue('A4', ' ');
+              $event->sheet->setCellValue('A2', 'REJOWINANGUN, KOTA YOGYAKARTA'); $event->sheet->setCellValue('A4', ' ');
               $event->sheet->mergeCells('A1:H1');
               $event->sheet->mergeCells('A2:H2');
 

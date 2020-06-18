@@ -76,9 +76,9 @@ class WargaController extends Controller
             // }
           } else {
             $btn = '<a href="'.route('warga.lapor',$row->id).'" class="btn border-success btn-xs text-success-600 btn-flat btn-icon"><i class="icon-pencil5"></i> Skrining COVID-19</a>';
-            if ($row->age >= 17 && HasilPendataanWarga::where('warga_id',$row->id)->first() == null) {
-              $btn = $btn.'  <a href="'.route('warga.screPsi',$row->id).'" class="btn border-success btn-xs text-success-600 btn-flat btn-icon"><i class="icon-pencil5"></i> Pendataan Dampak Covid-19</a>';
-            }
+            // if ($row->age >= 17 && HasilPendataanWarga::where('warga_id',$row->id)->first() == null) {
+            //   $btn = $btn.'  <a href="'.route('warga.screPsi',$row->id).'" class="btn border-success btn-xs text-success-600 btn-flat btn-icon"><i class="icon-pencil5"></i> Pendataan Dampak Covid-19</a>';
+            // }
           }
             return $btn;
         })

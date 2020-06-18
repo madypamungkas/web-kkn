@@ -65,7 +65,7 @@
             <th width="5%">No</th>
             <th>Nama</th>
   					<th>Pengisian</th>
-            <th>Padukuhan</th>
+            <th>Kampung</th>
             <th>RW</th>
             <th>RT</th>
   					<!-- <th class="col-md-2">Aksi</th> -->

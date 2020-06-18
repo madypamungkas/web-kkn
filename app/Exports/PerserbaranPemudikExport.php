@@ -51,7 +51,7 @@ class PerserbaranPemudikExport implements FromCollection, WithHeadings, WithEven
         return [
             BeforeSheet::class => function(BeforeSheet $event){
               $event->sheet->setCellValue('A1', 'REKAP PERSEBARAN PEMUDIK');
-              $event->sheet->setCellValue('A2', 'BEDOYO, KABUPATEN GUNUNGKIDUL');
+              $event->sheet->setCellValue('A2', 'REJOWINANGUN, KOTA YOGYAKARTA');
               $event->sheet->mergeCells('A1:D1');
               $event->sheet->mergeCells('A2:D2');
               $event->sheet->setCellValue('A3', ' ');

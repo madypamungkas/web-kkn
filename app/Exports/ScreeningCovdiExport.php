@@ -40,7 +40,7 @@ class ScreeningCovdiExport implements FromCollection, WithHeadings, WithEvents, 
           'No Telepon',
           'Jenis Kelamin',
           'Tanggal Lahir',
-          'Padukuhan',
+          'Kampung',
           'RW',
           'RT',
           'Kependudukan',
@@ -61,7 +61,7 @@ class ScreeningCovdiExport implements FromCollection, WithHeadings, WithEvents, 
         return [
             BeforeSheet::class => function(BeforeSheet $event){
               $event->sheet->setCellValue('A1', 'REKAP SKRINING COVID 19');
-              $event->sheet->setCellValue('A2', 'BEDOYO, KABUPATEN GUNUNGKIDUL');
+              $event->sheet->setCellValue('A2', 'REJOWINANGUN,KOTA YOGYAKARTA');
               $event->sheet->setCellValue('A4', 'RT:');
               $event->sheet->setCellValue('B4', $this->rt);
               $event->sheet->setCellValue('A5', 'RW:');
